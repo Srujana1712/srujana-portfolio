@@ -1,0 +1,711 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080710">
+  <meta name="description" content="Voice-Versus: an AI-powered debate platform supporting user-versus-AI debates and multiplayer debates with AI judging.">
+  <title>Voice-Versus | Srujana M.</title>
+  <link rel="stylesheet" href="voice-versus.css">
+</head>
+<body>
+
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <!-- NAVIGATION -->
+  <header class="topbar">
+    <a class="brand" href="index.html">SM<span>.</span></a>
+    <a class="back-link" href="index.html#projects">
+      <span>←</span> Back to Projects
+    </a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section-wrap">
+      <p class="eyebrow"><span></span> PROJECT CASE STUDY</p>
+
+      <div class="hero-grid">
+        <div class="hero-copy">
+          <p class="project-type">ARTIFICIAL INTELLIGENCE · INTERACTIVE DEBATES</p>
+
+          <h1>Voice<span>-Versus</span></h1>
+
+          <p class="hero-description">
+            Two debate modes. Intelligent responses. AI-powered evaluation.
+          </p>
+
+          <p class="hero-text">
+            Voice-Versus is an AI-powered debate platform where users can
+            challenge an AI opponent that responds to their arguments in a
+            debate-like manner, or participate in live debates against another
+            user. The multiplayer mode also includes an AI judge that provides
+            a detailed evaluation report.
+          </p>
+
+          <div class="tag-list">
+            <span>User vs AI</span>
+            <span>User vs User</span>
+            <span>AI Judge</span>
+            <span>Multiplayer</span>
+          </div>
+
+          <a class="primary-link" href="#overview">
+            Explore the project <span>↓</span>
+          </a>
+        </div>
+
+        <!-- CSS-ILLUSTRATED PREVIEW -->
+        <div class="hero-preview">
+          <div class="preview-top">
+            <span class="window-dots"><i></i><i></i><i></i></span>
+            <span>VOICE-VERSUS</span>
+            <span class="preview-status"><i></i> DEMO</span>
+          </div>
+
+          <div class="preview-content">
+            <p class="preview-kicker">ENTER THE DEBATE ARENA</p>
+            <h2>Make your<br><span>argument.</span></h2>
+
+            <div class="versus-row">
+              <div class="player-card">
+                <div class="avatar">YOU</div>
+                <span>YOUR ARGUMENT</span>
+              </div>
+
+              <div class="versus">VS</div>
+
+              <div class="player-card">
+                <div class="avatar avatar-two">AI</div>
+                <span>COUNTERARGUMENT</span>
+              </div>
+            </div>
+
+            <div class="preview-topic">
+              <span>THE DEBATE EXPERIENCE</span>
+              <strong>Present. Respond. Evaluate.</strong>
+            </div>
+
+            <div class="preview-wave" aria-hidden="true">
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+              <span></span><span></span><span></span><span></span>
+            </div>
+
+            <p class="preview-caption">DISCUSS · DEFEND · EVALUATE</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="quick-facts">
+        <div>
+          <span class="fact-label">MY ROLE</span>
+          <strong>Backend &amp; AI Integration</strong>
+        </div>
+        <div>
+          <span class="fact-label">DEBATE MODES</span>
+          <strong>User vs AI · User vs User</strong>
+        </div>
+        <div>
+          <span class="fact-label">PROJECT STATUS</span>
+          <strong>Working Multiplayer Demo</strong>
+        </div>
+        <div>
+          <span class="fact-label">AI JUDGE</span>
+          <strong>Detailed Evaluation Report</strong>
+        </div>
+      </div>
+    </section>
+
+    <!-- OVERVIEW -->
+    <section class="content-section section-wrap" id="overview">
+      <div class="section-heading">
+        <p class="eyebrow">01 / PROJECT OVERVIEW</p>
+        <h2>Where arguments meet <span>AI</span></h2>
+      </div>
+
+      <div class="two-column">
+        <div class="lead-panel">
+          <span class="panel-symbol">01</span>
+          <p class="large-copy">
+            An interactive debate platform for challenging ideas,
+            defending viewpoints, and evaluating arguments.
+          </p>
+        </div>
+
+        <div class="body-copy">
+          <p>
+            Voice-Versus brings AI-powered argument exchange and multiplayer
+            debate interaction into one web application. Users can choose
+            to debate an AI opponent or participate in a debate with another
+            person.
+          </p>
+
+          <p>
+            In User vs AI mode, the AI responds to what the user says or
+            presents, continuing the exchange in a debate-like manner.
+            In User vs User mode, two participants debate a selected topic,
+            and an AI judge provides a detailed evaluation report.
+          </p>
+
+          <p>
+            The project combines a React interface, a FastAPI backend,
+            and integrations with Groq and Deepgram.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- TWO DEBATE MODES -->
+    <section class="content-section section-wrap" id="debate-modes">
+      <div class="section-heading">
+        <p class="eyebrow">02 / TWO WAYS TO DEBATE</p>
+        <h2>Choose your <span>opponent</span></h2>
+        <p class="section-intro">
+          Practice defending your ideas against AI or challenge another
+          participant in a shared debate session.
+        </p>
+      </div>
+
+      <div class="modes-grid">
+
+        <article class="mode-card mode-ai">
+          <div class="mode-top">
+            <span class="mode-number">MODE 01</span>
+            <span class="mode-badge">AI OPPONENT</span>
+          </div>
+
+          <div class="mode-icon" aria-hidden="true">✳</div>
+
+          <h3>User <span>vs</span> AI</h3>
+
+          <p>
+            Present your argument and receive an AI-generated response
+            in a debate-like manner. The AI responds to the user's
+            viewpoint with a relevant counterargument, allowing the
+            discussion to continue interactively.
+          </p>
+
+          <div class="mode-flow">
+            <span>Your argument</span>
+            <b>↔</b>
+            <span>AI response</span>
+          </div>
+
+          <p class="mode-caption">
+            An interactive exchange between the user and an AI opponent.
+          </p>
+        </article>
+
+        <article class="mode-card mode-multiplayer">
+          <div class="mode-top">
+            <span class="mode-number">MODE 02</span>
+            <span class="mode-badge">MULTIPLAYER</span>
+          </div>
+
+          <div class="mode-icon" aria-hidden="true">⚖</div>
+
+          <h3>User <span>vs</span> User</h3>
+
+          <p>
+            Two participants debate a selected topic in a shared session.
+            After the debate, the AI judge generates a detailed evaluation
+            report to help assess the arguments presented.
+          </p>
+
+          <div class="mode-flow">
+            <span>Player one</span>
+            <b>VS</b>
+            <span>Player two</span>
+          </div>
+
+          <p class="mode-caption">
+            A two-user debate with AI-assisted evaluation.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- WORKFLOW -->
+    <section class="content-section section-wrap" id="workflow">
+      <div class="section-heading">
+        <p class="eyebrow">03 / USER WORKFLOW</p>
+        <h2>How the debate experience <span>works</span></h2>
+      </div>
+
+      <div class="workflow">
+
+        <article class="workflow-step">
+          <div class="step-marker">01</div>
+          <div class="step-content">
+            <h3>Choose a debate mode</h3>
+            <p>
+              Start an AI-opponent debate or enter the multiplayer
+              user-versus-user experience.
+            </p>
+          </div>
+        </article>
+
+        <div class="workflow-line"></div>
+
+        <article class="workflow-step">
+          <div class="step-marker">02</div>
+          <div class="step-content">
+            <h3>Prepare the debate</h3>
+            <p>
+              In multiplayer mode, users create or join a room and
+              proceed through the topic-selection workflow.
+            </p>
+          </div>
+        </article>
+
+        <div class="workflow-line"></div>
+
+        <article class="workflow-step">
+          <div class="step-marker">03</div>
+          <div class="step-content">
+            <h3>Exchange arguments</h3>
+            <p>
+              The user debates the AI opponent, or two participants
+              interact within a shared live debate session.
+            </p>
+          </div>
+        </article>
+
+        <div class="workflow-line"></div>
+
+        <article class="workflow-step">
+          <div class="step-marker">04</div>
+          <div class="step-content">
+            <h3>Receive an AI response or evaluation</h3>
+            <p>
+              In User vs AI mode, the AI responds in a debate-like manner.
+              In User vs User mode, the AI judge provides a detailed
+              evaluation report.
+            </p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="content-section section-wrap" id="features">
+      <div class="section-heading">
+        <p class="eyebrow">04 / KEY FEATURES</p>
+        <h2>Built around the <span>debate experience</span></h2>
+      </div>
+
+      <div class="features-grid">
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">01</span>
+            <span class="feature-type">AI DEBATE</span>
+          </div>
+          <h3>User vs AI</h3>
+          <p>
+            Users can present arguments and receive AI responses
+            designed to continue the discussion in a debate-like manner.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">02</span>
+            <span class="feature-type">MULTIPLAYER</span>
+          </div>
+          <h3>User vs User</h3>
+          <p>
+            Two participants can debate one another in a shared live
+            debate session.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">03</span>
+            <span class="feature-type">ROOM MANAGEMENT</span>
+          </div>
+          <h3>Create and join rooms</h3>
+          <p>
+            Multiplayer room endpoints support the process of creating
+            and joining a debate session.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">04</span>
+            <span class="feature-type">AI JUDGE</span>
+          </div>
+          <h3>Detailed evaluation report</h3>
+          <p>
+            The AI judge generates a detailed report for evaluating
+            a user-versus-user debate.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">05</span>
+            <span class="feature-type">SESSION FLOW</span>
+          </div>
+          <h3>Debate state management</h3>
+          <p>
+            The multiplayer session tracks information such as participants,
+            topic, current turn, rounds, messages, and status.
+          </p>
+        </article>
+
+        <article class="feature-card">
+          <div class="feature-top">
+            <span class="feature-icon">06</span>
+            <span class="feature-type">AI INTEGRATION</span>
+          </div>
+          <h3>AI and voice services</h3>
+          <p>
+            Groq and Deepgram are integrated into the broader
+            AI-powered debate application.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- ARCHITECTURE -->
+    <section class="content-section section-wrap" id="architecture">
+      <div class="section-heading">
+        <p class="eyebrow">05 / TECHNICAL ARCHITECTURE</p>
+        <h2>How the components <span>connect</span></h2>
+        <p class="section-intro">
+          A high-level conceptual overview of the technologies used
+          in Voice-Versus.
+        </p>
+      </div>
+
+      <div class="architecture">
+
+        <div class="architecture-node frontend-node">
+          <span class="node-label">PRESENTATION LAYER</span>
+          <h3>React Frontend</h3>
+          <p>
+            Mode selection, debate screens, room entry, topic selection,
+            and live session interface.
+          </p>
+        </div>
+
+        <div class="architecture-connector">
+          <span>Application requests and responses</span>
+          <div class="connector-line"></div>
+        </div>
+
+        <div class="architecture-node backend-node">
+          <span class="node-label">APPLICATION LAYER</span>
+          <h3>FastAPI Backend</h3>
+          <p>
+            Application endpoints, multiplayer rooms, session information,
+            and coordination between application components.
+          </p>
+        </div>
+
+        <div class="service-branches">
+          <div class="branch-line"></div>
+
+          <div class="service-grid">
+            <article class="service-card">
+              <div class="service-symbol">G</div>
+              <span class="node-label">AI SERVICE</span>
+              <h3>Groq</h3>
+              <p>
+                AI service integration within the debate application.
+              </p>
+            </article>
+
+            <article class="service-card">
+              <div class="service-symbol">D</div>
+              <span class="node-label">VOICE SERVICE</span>
+              <h3>Deepgram</h3>
+              <p>
+                Voice-related AI service integration in the project.
+              </p>
+            </article>
+          </div>
+        </div>
+
+        <p class="architecture-note">
+          Conceptual architecture based on the project technologies.
+          It does not specify every internal API call or data flow.
+        </p>
+      </div>
+    </section>
+
+    <!-- TECHNOLOGY STACK -->
+    <section class="content-section section-wrap" id="tech-stack">
+      <div class="section-heading">
+        <p class="eyebrow">06 / TECHNOLOGY STACK</p>
+        <h2>The tools behind <span>Voice-Versus</span></h2>
+      </div>
+
+      <div class="stack-grid">
+        <article class="stack-card">
+          <span class="stack-category">FRONTEND</span>
+          <h3>React</h3>
+          <p>Web interface and interactive debate screens.</p>
+        </article>
+
+        <article class="stack-card">
+          <span class="stack-category">BACKEND</span>
+          <h3>FastAPI</h3>
+          <p>Application endpoints and multiplayer room handling.</p>
+        </article>
+
+        <article class="stack-card">
+          <span class="stack-category">AI INTEGRATION</span>
+          <h3>Groq</h3>
+          <p>AI service integration in the debate experience.</p>
+        </article>
+
+        <article class="stack-card">
+          <span class="stack-category">VOICE AI</span>
+          <h3>Deepgram</h3>
+          <p>Voice-related service integration.</p>
+        </article>
+
+        <article class="stack-card">
+          <span class="stack-category">LANGUAGES</span>
+          <h3>Python &amp; JavaScript</h3>
+          <p>Languages used across backend and frontend development.</p>
+        </article>
+
+        <article class="stack-card">
+          <span class="stack-category">API COMMUNICATION</span>
+          <h3>REST APIs</h3>
+          <p>Endpoints supporting the multiplayer room workflow.</p>
+        </article>
+      </div>
+    </section>
+
+<!-- VOICE-VERSUS PROJECT PREVIEW -->
+<section class="section-wrap content-section" id="screenshots">
+
+  <div class="section-heading">
+    <span class="section-index">PROJECT PREVIEW</span>
+
+    <h2>
+      Inside the
+      <span class="gradient-text">debate arena.</span>
+    </h2>
+
+    <p class="section-intro">
+      Explore the key interfaces of Voice-Versus, from selecting
+      a battle mode to joining multiplayer debates and practicing
+      arguments with an AI opponent.
+    </p>
+  </div>
+
+  <div class="preview-grid">
+
+    <article class="preview-card">
+      <img
+        src="images/voice-versus-mode.png"
+        alt="Voice-Versus screen showing Practice with AI and Multiplayer battle modes"
+        loading="lazy"
+        style="width:100%;height:auto;display:block;border-radius:10px;"
+      />
+      <div class="preview-caption">
+        <span>SCREEN 01</span>
+        <h3>Battle Mode Selection</h3>
+        <p>Choose between an AI opponent and a multiplayer debate.</p>
+      </div>
+    </article>
+
+    <article class="preview-card">
+      <img
+        src="images/voice-versus-lobby.png"
+        alt="Voice-Versus multiplayer lobby showing an available player and challenge button"
+        loading="lazy"
+        style="width:100%;height:auto;display:block;border-radius:10px;"
+      />
+      <div class="preview-caption">
+        <span>SCREEN 02</span>
+        <h3>Multiplayer Lobby</h3>
+        <p>Find an available opponent and initiate a debate.</p>
+      </div>
+    </article>
+
+    <article class="preview-card">
+      <img
+        src="images/voice-versus-live.png"
+        alt="Voice-Versus live debate screen with participant video and debate topic"
+        loading="lazy"
+        style="width:100%;height:auto;display:block;border-radius:10px;"
+      />
+      <div class="preview-caption">
+        <span>SCREEN 03</span>
+        <h3>Live Debate Session</h3>
+        <p>Participate in a real-time debate with a selected topic.</p>
+      </div>
+    </article>
+
+    <article class="preview-card">
+      <img
+        src="images/voice-versus-ai.png"
+        alt="Voice-Versus AI debate interface"
+        loading="lazy"
+        style="width:100%;height:auto;display:block;border-radius:10px;"
+      />
+      <div class="preview-caption">
+        <span>SCREEN 04</span>
+        <h3>AI Debate Mode</h3>
+        <p>Practice debating against an AI opponent.</p>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+
+    <!-- MY CONTRIBUTION -->
+    <section class="content-section section-wrap" id="contribution">
+      <div class="section-heading">
+        <p class="eyebrow">08 / MY CONTRIBUTION</p>
+        <h2>My role in <span>Voice-Versus</span></h2>
+      </div>
+
+      <div class="contribution-panel">
+        <div class="contribution-marker">SM<span>.</span></div>
+
+        <div class="contribution-copy">
+          <p class="contribution-role">BACKEND &amp; AI INTEGRATION</p>
+
+          <h3>Connecting application logic with AI capabilities</h3>
+
+          <p>
+            My contribution focused on backend development and AI integration.
+            I worked on the backend side of the application and its integration
+            with the AI services used in the debate experience.
+          </p>
+
+          <p>
+            The project uses FastAPI and includes multiplayer endpoints
+            for creating and joining rooms. Its session information covers
+            participants, topic, current turn, rounds, messages, and status.
+          </p>
+
+          <p>
+            The broader project combines the User vs AI experience with
+            User vs User multiplayer debates and AI-assisted judging.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CHALLENGES AND LEARNINGS -->
+    <section class="content-section section-wrap" id="learnings">
+      <div class="section-heading">
+        <p class="eyebrow">09 / DEVELOPMENT JOURNEY</p>
+        <h2>Building, debugging, <span>improving</span></h2>
+      </div>
+
+      <div class="learning-grid">
+
+        <article class="learning-card">
+          <span class="learning-number">01</span>
+          <h3>Backend routing</h3>
+          <p>
+            Working with multiplayer endpoints required attention to
+            router prefixes and the requests sent from the frontend.
+          </p>
+        </article>
+
+        <article class="learning-card">
+          <span class="learning-number">02</span>
+          <h3>Frontend-backend integration</h3>
+          <p>
+            Connecting the waiting room and live debate screen with
+            the room and session endpoints required integration testing.
+          </p>
+        </article>
+
+        <article class="learning-card">
+          <span class="learning-number">03</span>
+          <h3>Application structure</h3>
+          <p>
+            Resolving module import and export issues was part of getting
+            the frontend components to load correctly.
+          </p>
+        </article>
+
+        <article class="learning-card">
+          <span class="learning-number">04</span>
+          <h3>AI-enabled development</h3>
+          <p>
+            The project provided practical experience connecting AI
+            services with an interactive web application.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- OUTCOME -->
+    <section class="content-section section-wrap" id="outcome">
+      <div class="outcome-panel">
+        <p class="eyebrow">10 / PROJECT OUTCOME</p>
+
+        <h2>Two ways to experience a <span>debate</span></h2>
+
+        <p>
+          Voice-Versus brings together AI-opponent debates and user-versus-user
+          debates with AI-assisted judging. The current project demo supports
+          two users participating in a live debate, while the AI-opponent mode
+          enables users to exchange arguments with an AI in a debate-like manner.
+        </p>
+
+        <div class="outcome-points">
+          <span><i></i> AI opponent and debate-style responses</span>
+          <span><i></i> Working two-user debate demo</span>
+          <span><i></i> Detailed AI judge report</span>
+        </div>
+
+        <a
+          class="primary-link"
+          href="https://github.com/Srujana1712/voice-versus"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          View project on GitHub <span>↗</span>
+        </a>
+      </div>
+    </section>
+
+    <!-- CLOSING -->
+    <section class="next-project section-wrap">
+      <p class="eyebrow">THANK YOU FOR READING</p>
+      <h2>Explore more of my <span>work.</span></h2>
+      <p>
+        Return to my portfolio to explore my other projects and experiences.
+      </p>
+      <a class="primary-link" href="index.html#projects">
+        Back to all projects <span>↗</span>
+      </a>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="index.html">SM<span>.</span></a>
+    <p>Designed &amp; built by Srujana M.</p>
+    <a href="index.html#contact">Get in touch ↗</a>
+  </footer>
+
+</body>
+</html>

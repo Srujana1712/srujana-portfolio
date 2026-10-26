@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#090810" />
+  <meta name="description" content="PricePilot — Retail Price Optimization, Demand Prediction, and Business Intelligence by Srujana M." />
+  <title>PricePilot | Srujana M.</title>
+
+  <link rel="stylesheet" href="pricepilot.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="background-grid" aria-hidden="true"></div>
+  <div class="ambient-glow glow-one" aria-hidden="true"></div>
+  <div class="ambient-glow glow-two" aria-hidden="true"></div>
+
+  <header class="topbar">
+    <a class="brand" href="index.html" aria-label="Back to portfolio home">
+      <span class="brand-mark">S.</span>
+      <span>Srujana M.</span>
+    </a>
+
+    <a class="back-link" href="index.html#projects">
+      <span aria-hidden="true">←</span> Back to projects
+    </a>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero section-wrap">
+      <div class="hero-content">
+
+        <div class="eyebrow">
+          <span class="status-dot"></span>
+          MACHINE LEARNING · BUSINESS INTELLIGENCE
+        </div>
+
+        <h1>Price<span class="gradient-text">Pilot</span></h1>
+
+        <p class="hero-subtitle">
+          Retail Price Optimization &amp; Demand Prediction
+        </p>
+
+        <p class="hero-description">
+          A retail analytics project that combines exploratory data analysis,
+          regression models, price-demand analysis, and Power BI visualizations
+          to uncover pricing patterns and support data-driven business decisions.
+        </p>
+
+        <div class="hero-tags">
+          <span>Python</span>
+          <span>Machine Learning</span>
+          <span>Scikit-learn</span>
+          <span>Power BI</span>
+        </div>
+
+        <div class="hero-actions">
+          <a class="button button-primary" href="#overview">
+            Explore case study <span>↘</span>
+          </a>
+
+          <a class="button button-secondary" href="#results">
+            View model results <span>↘</span>
+          </a>
+        </div>
+
+      </div>
+
+      <!-- Illustrative dashboard concept -->
+      <div class="hero-visual" aria-label="Illustrative retail analytics dashboard">
+        <div class="visual-orbit orbit-one"></div>
+        <div class="visual-orbit orbit-two"></div>
+
+        <div class="dashboard-card">
+          <div class="dashboard-top">
+            <div>
+              <span class="mini-label">PRICEPILOT OVERVIEW</span>
+              <h3>Pricing intelligence</h3>
+            </div>
+            <span class="dashboard-menu">•••</span>
+          </div>
+
+          <div class="metric-grid">
+            <div class="metric-box">
+              <span>Best reported model</span>
+              <strong>0.934</strong>
+              <small>Decision Tree R²</small>
+            </div>
+
+            <div class="metric-box">
+              <span>Analysis focus</span>
+              <strong>Demand</strong>
+              <small>Quantity sold</small>
+            </div>
+          </div>
+
+          <div class="chart-heading">
+            <div>
+              <span class="mini-label">ANALYTICS</span>
+              <h4>Pricing patterns</h4>
+            </div>
+            <span class="chart-period">Illustration</span>
+          </div>
+
+          <div class="bar-chart" aria-hidden="true">
+            <span style="height: 38%"></span>
+            <span style="height: 57%"></span>
+            <span style="height: 46%"></span>
+            <span style="height: 72%"></span>
+            <span style="height: 62%"></span>
+            <span style="height: 85%"></span>
+            <span style="height: 70%"></span>
+            <span style="height: 94%"></span>
+            <span style="height: 78%"></span>
+          </div>
+
+          <div class="chart-axis">
+            <span>Price</span>
+            <span>Demand</span>
+            <span>Revenue</span>
+          </div>
+
+          <div class="dashboard-footer">
+            <span class="footer-pulse"></span>
+            Retail analytics concept
+          </div>
+        </div>
+
+        <div class="floating-chip chip-top">
+          ↗ Price optimization
+        </div>
+
+        <div class="floating-chip chip-bottom">
+          <span class="chip-dot"></span>
+          Data-driven decisions
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECT SNAPSHOT -->
+    <section class="section-wrap snapshot-section" aria-label="Project summary">
+      <div class="snapshot-grid">
+
+        <article class="snapshot-card">
+          <span class="snapshot-label">DOMAIN</span>
+          <h3>Retail Analytics</h3>
+          <p>Pricing and sales behavior</p>
+        </article>
+
+        <article class="snapshot-card">
+          <span class="snapshot-label">PREDICTION TARGET</span>
+          <h3>Quantity Sold</h3>
+          <p>Regression-based prediction</p>
+        </article>
+
+        <article class="snapshot-card">
+          <span class="snapshot-label">VISUALIZATION</span>
+          <h3>Power BI</h3>
+          <p>Interactive business dashboard</p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 01: OVERVIEW -->
+    <section class="section-wrap content-section" id="overview">
+
+      <div class="section-heading">
+        <span class="section-index">01 / OVERVIEW</span>
+
+        <h2>
+          Understand pricing.
+          <span class="gradient-text">Predict demand.</span>
+        </h2>
+
+        <p class="section-intro">
+          Explore how retail prices, product characteristics, and competitor
+          pricing relate to quantity sold and business performance.
+        </p>
+      </div>
+
+      <div class="overview-grid">
+
+        <article class="content-card overview-main">
+          <div class="card-icon">⌁</div>
+          <h3>About PricePilot</h3>
+
+          <p>
+            PricePilot is a retail price optimization and demand prediction
+            project built around a retail pricing dataset from Kaggle.
+            It investigates factors associated with product demand and
+            uses regression models to predict quantity sold.
+          </p>
+
+          <p>
+            The project combines data cleaning, exploratory analysis,
+            feature engineering, machine learning, price-demand analysis,
+            and Power BI reporting to translate data into business insights.
+          </p>
+        </article>
+
+        <article class="content-card problem-card">
+          <span class="card-kicker">THE BUSINESS PROBLEM</span>
+          <h3>How can retailers make informed pricing decisions?</h3>
+
+          <ul class="styled-list">
+            <li>Understand the relationship between price and quantity sold.</li>
+            <li>Identify factors associated with product sales.</li>
+            <li>Compare regression models for demand prediction.</li>
+            <li>Explore competitor pricing and revenue patterns.</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 02: DATASET -->
+    <section class="section-wrap content-section" id="dataset">
+
+      <div class="section-heading">
+        <span class="section-index">02 / DATASET &amp; FEATURES</span>
+
+        <h2>
+          The data behind
+          <span class="gradient-text">the decisions.</span>
+        </h2>
+
+        <p class="section-intro">
+          The Kaggle Retail Price Optimization Case Study dataset provides
+          product, pricing, sales, and competitor-related information for analysis.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <div class="feature-icon">₹</div>
+          <h3>Pricing Information</h3>
+
+          <p>
+            Unit price, freight price, and competitor prices help investigate
+            pricing differences and their relationship with sales.
+          </p>
+
+          <span class="feature-tag">Price analysis</span>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <div class="feature-icon">▤</div>
+          <h3>Product &amp; Customer Data</h3>
+
+          <p>
+            Product categories, customer counts, ratings, and related
+            attributes support comparisons across products.
+          </p>
+
+          <span class="feature-tag">Feature analysis</span>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <div class="feature-icon">↗</div>
+          <h3>Sales &amp; Demand</h3>
+
+          <p>
+            Quantity sold, sales information, and date fields support
+            regression modeling and trend analysis.
+          </p>
+
+          <span class="feature-tag">Demand prediction</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 03: PROJECT WORKFLOW -->
+    <section class="section-wrap content-section" id="workflow">
+
+      <div class="section-heading">
+        <span class="section-index">03 / PROJECT WORKFLOW</span>
+
+        <h2>
+          From raw data to
+          <span class="gradient-text">business insights.</span>
+        </h2>
+
+        <p class="section-intro">
+          The project follows a structured analytics pipeline, from data
+          preparation through model evaluation and dashboard reporting.
+        </p>
+      </div>
+
+      <div class="workflow-card">
+
+        <div class="workflow-line" aria-hidden="true"></div>
+
+        <article class="workflow-step">
+          <div class="workflow-number">01</div>
+
+          <div class="workflow-copy">
+            <span class="step-kicker">PREPARE</span>
+            <h3>Data Cleaning</h3>
+
+            <p>
+              Inspect data types, missing values, duplicate records,
+              and statistical summaries before analysis.
+            </p>
+          </div>
+
+          <span class="workflow-state">Data preparation</span>
+        </article>
+
+        <article class="workflow-step">
+          <div class="workflow-number">02</div>
+
+          <div class="workflow-copy">
+            <span class="step-kicker">EXPLORE</span>
+            <h3>Exploratory Data Analysis</h3>
+
+            <p>
+              Visualize price distributions, quantity sold, category patterns,
+              monthly trends, revenue, and competitor prices.
+            </p>
+          </div>
+
+          <span class="workflow-state">EDA</span>
+        </article>
+
+        <article class="workflow-step">
+          <div class="workflow-number">03</div>
+
+          <div class="workflow-copy">
+            <span class="step-kicker">ENGINEER</span>
+            <h3>Feature Engineering</h3>
+
+            <p>
+              Create features such as revenue, average competitor price,
+              price difference, and price ratio.
+            </p>
+          </div>
+
+          <span class="workflow-state">Feature creation</span>
+        </article>
+
+        <article class="workflow-step">
+          <div class="workflow-number">04</div>
+
+          <div class="workflow-copy">
+            <span class="step-kicker">PREDICT &amp; REPORT</span>
+            <h3>Modeling and Visualization</h3>
+
+            <p>
+              Compare regression models using evaluation metrics and present
+              business metrics through an interactive Power BI dashboard.
+            </p>
+          </div>
+
+          <span class="workflow-state">Model evaluation</span>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- 04: MACHINE LEARNING -->
+    <section class="section-wrap content-section" id="models">
+
+      <div class="section-heading">
+        <span class="section-index">04 / MACHINE LEARNING</span>
+
+        <h2>
+          Comparing models for
+          <span class="gradient-text">demand prediction.</span>
+        </h2>
+
+        <p class="section-intro">
+          Three regression approaches were compared to predict quantity sold.
+          MAE, RMSE, and R² were selected as evaluation metrics.
+        </p>
+      </div>
+
+      <div class="feature-grid">
+
+        <article class="feature-card">
+          <span class="feature-number">MODEL 01</span>
+          <div class="feature-icon">ƒ</div>
+          <h3>Linear Regression</h3>
+
+          <p>
+            Provides a baseline for modeling relationships between the
+            selected input features and quantity sold.
+          </p>
+
+          <span class="feature-tag">Baseline model</span>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">MODEL 02</span>
+          <div class="feature-icon">⌘</div>
+          <h3>Decision Tree Regressor</h3>
+
+          <p>
+            Models nonlinear relationships by learning decision rules
+            from the input features.
+          </p>
+
+          <span class="feature-tag">Best reported R²</span>
+        </article>
+
+        <article class="feature-card">
+          <span class="feature-number">MODEL 03</span>
+          <div class="feature-icon">▦</div>
+          <h3>Random Forest Regressor</h3>
+
+          <p>
+            Combines multiple decision trees to produce a regression
+            prediction.
+          </p>
+
+          <span class="feature-tag">Ensemble model</span>
+        </article>
+
+      </div>
+
+      <div class="insight-note">
+        <span class="note-icon">ⓘ</span>
+
+        <p>
+          <strong>Evaluation:</strong> MAE and RMSE measure prediction errors,
+          while R² indicates how much variation in the target is explained
+          by the model on the evaluated data. The evaluation setup matters
+          when interpreting these results.
+        </p>
+      </div>
+    </section>
+
+    <!-- 05: MODEL RESULTS -->
+    <section class="section-wrap content-section" id="results">
+
+      <div class="section-heading">
+        <span class="section-index">05 / MODEL RESULTS</span>
+
+        <h2>
+          The reported results,
+          <span class="gradient-text">side by side.</span>
+        </h2>
+
+        <p class="section-intro">
+          The following R² scores are taken from the project's README.
+        </p>
+      </div>
+
+      <div class="content-card">
+
+        <div class="table-responsive">
+          <table>
+            <thead>
+              <tr>
+                <th>Regression Model</th>
+                <th>R² Score</th>
+                <th>Comparison</th>
+              </tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td>Decision Tree Regressor</td>
+                <td><strong>0.934</strong></td>
+                <td>Highest reported R²</td>
+              </tr>
+
+              <tr>
+                <td>Random Forest Regressor</td>
+                <td><strong>0.919</strong></td>
+                <td>Second highest</td>
+              </tr>
+
+              <tr>
+                <td>Linear Regression</td>
+                <td><strong>0.826</strong></td>
+                <td>Baseline comparison</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>
+          Based on the reported R² scores, the Decision Tree Regressor
+          achieved the highest score and was selected as the final model.
+        </p>
+
+      </div>
+
+      <div class="insight-note">
+        <span class="note-icon">ⓘ</span>
+
+        <p>
+          <strong>Before publishing:</strong> verify these values against your
+          notebook outputs and confirm that the scores were calculated on
+          held-out test data. Add the actual MAE and RMSE values if available.
+        </p>
+      </div>
+
+    </section>
+
+    <!-- 06: PRICE ELASTICITY -->
+    <section class="section-wrap content-section" id="pricing">
+
+      <div class="section-heading">
+        <span class="section-index">06 / PRICE &amp; DEMAND ANALYSIS</span>
+
+        <h2>
+          Explore the relationship between
+          <span class="gradient-text">price and demand.</span>
+        </h2>
+
+        <p class="section-intro">
+          The analysis investigates pricing patterns, sales volume,
+          revenue, and competitor prices to identify relationships
+          that may be useful for retail decisions.
+        </p>
+      </div>
+
+      <div class="overview-grid">
+
+        <article class="content-card overview-main">
+          <div class="card-icon">↗</div>
+          <h3>Price Elasticity Analysis</h3>
+
+          <p>
+            Price elasticity describes how demand responds to a change
+            in price. This project explores price-demand relationships
+            and related trends in the retail dataset.
+          </p>
+
+          <p>
+            Correlation and visual patterns can help identify relationships,
+            but they do not by themselves establish that price changes
+            caused changes in demand.
+          </p>
+        </article>
+
+        <article class="content-card problem-card">
+          <span class="card-kicker">ANALYSIS AREAS</span>
+          <h3>Questions explored</h3>
+
+          <ul class="styled-list">
+            <li>How does quantity sold vary with unit price?</li>
+            <li>How do revenue patterns differ by category?</li>
+            <li>How do competitor prices compare with product prices?</li>
+            <li>What additional evidence is needed for pricing recommendations?</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+  <!-- POWER BI DASHBOARD PREVIEW -->
+<section class="section-wrap content-section" id="dashboard">
+
+  <div class="section-heading">
+    <span class="section-index">07 / POWER BI DASHBOARD</span>
+
+    <h2>
+      Retail insights,
+      <span class="gradient-text">visualized.</span>
+    </h2>
+
+    <p class="section-intro">
+      An interactive Power BI dashboard presenting retail KPIs,
+      monthly quantity trends, revenue by product category,
+      and price-quantity comparisons.
+    </p>
+  </div>
+
+  <div class="content-card">
+    <img
+      src="images/pricepilot-dashboard.png"
+      alt="PricePilot Power BI dashboard showing retail KPIs, monthly quantity sold, revenue by category, and price-quantity comparisons"
+      style="width: 100%; height: auto; display: block; border-radius: 10px;"
+    />
+
+    <div class="preview-caption">
+      <span>POWER BI</span>
+      <h3>Retail Price Optimization &amp; Price Elasticity Dashboard</h3>
+    </div>
+  </div>
+
+</section>
+
+    <!-- 08: TECHNOLOGY STACK -->
+    <section class="section-wrap content-section" id="technology">
+
+      <div class="section-heading">
+        <span class="section-index">08 / TECHNOLOGY STACK</span>
+
+        <h2>
+          Tools used to build
+          <span class="gradient-text">PricePilot.</span>
+        </h2>
+      </div>
+
+      <div class="tech-grid">
+
+        <article class="tech-card">
+          <span class="tech-symbol">Py</span>
+          <div>
+            <h3>Python</h3>
+            <p>Data processing and model development</p>
+          </div>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-symbol">Pd</span>
+          <div>
+            <h3>Pandas &amp; NumPy</h3>
+            <p>Data manipulation and numerical operations</p>
+          </div>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-symbol">ML</span>
+          <div>
+            <h3>Scikit-learn</h3>
+            <p>Regression models and evaluation metrics</p>
+          </div>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-symbol">Viz</span>
+          <div>
+            <h3>Matplotlib &amp; Seaborn</h3>
+            <p>Exploratory data visualizations</p>
+          </div>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-symbol">BI</span>
+          <div>
+            <h3>Power BI</h3>
+            <p>Interactive dashboard and business reporting</p>
+          </div>
+        </article>
+
+        <article class="tech-card">
+          <span class="tech-symbol">Jp</span>
+          <div>
+            <h3>Jupyter Notebook</h3>
+            <p>Data exploration and experimentation</p>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- MY CONTRIBUTION -->
+    <section class="section-wrap content-section" id="contribution">
+
+      <div class="section-heading">
+        <span class="section-index">09 / MY CONTRIBUTION</span>
+
+        <h2>
+          Turning retail data into
+          <span class="gradient-text">actionable analysis.</span>
+        </h2>
+      </div>
+
+      <div class="contribution-grid">
+
+        <article class="content-card contribution-main">
+          <span class="card-kicker">PROJECT IMPLEMENTATION</span>
+          <h3>Data analysis and predictive modeling</h3>
+
+          <p>
+            The project brings together retail data preparation,
+            exploratory analysis, feature engineering, regression
+            model comparison, price-demand analysis, and dashboard reporting.
+          </p>
+
+          <p>
+            The implementation compares Linear Regression, Decision Tree
+            Regressor, and Random Forest Regressor to predict quantity sold,
+            with Power BI used to communicate business metrics and trends.
+          </p>
+        </article>
+
+        <article class="content-card contribution-list-card">
+          <span class="card-kicker">CORE WORK AREAS</span>
+
+          <ul class="contribution-list">
+            <li><span>01</span> Data cleaning and exploratory analysis</li>
+            <li><span>02</span> Feature engineering for pricing data</li>
+            <li><span>03</span> Regression modeling and comparison</li>
+            <li><span>04</span> Price-demand relationship analysis</li>
+            <li><span>05</span> Power BI dashboard development</li>
+          </ul>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FUTURE SCOPE -->
+    <section class="section-wrap content-section" id="future">
+
+      <div class="section-heading">
+        <span class="section-index">10 / FUTURE SCOPE</span>
+
+        <h2>
+          Taking pricing intelligence
+          <span class="gradient-text">further.</span>
+        </h2>
+      </div>
+
+      <div class="future-grid">
+
+        <article class="future-card">
+          <span>01</span>
+          <h3>Model Optimization</h3>
+
+          <p>
+            Apply hyperparameter tuning and cross-validation to evaluate
+            model performance more robustly.
+          </p>
+        </article>
+
+        <article class="future-card">
+          <span>02</span>
+          <h3>Price Elasticity Coefficients</h3>
+
+          <p>
+            Quantify price sensitivity using an appropriate method
+            and validate the assumptions behind the estimates.
+          </p>
+        </article>
+
+        <article class="future-card">
+          <span>03</span>
+          <h3>Revenue Optimization</h3>
+
+          <p>
+            Simulate alternative pricing scenarios and compare projected
+            revenue, using clearly stated assumptions and constraints.
+          </p>
+        </article>
+
+      </div>
+    </section>
+
+    <!-- FOOTER CTA -->
+    <section class="section-wrap next-project-section">
+
+      <div class="next-project-card">
+        <span class="section-index">THANK YOU FOR EXPLORING</span>
+
+        <h2>
+          Data into insight.
+          <span class="gradient-text">Insight into decisions.</span>
+        </h2>
+
+        <p>
+          PricePilot combines retail analytics, predictive modeling,
+          and interactive visualization to investigate pricing and demand.
+        </p>
+
+        <div class="hero-actions centered-actions">
+          <a class="button button-primary" href="index.html#projects">
+            More projects <span>↗</span>
+          </a>
+
+          <a class="button button-secondary" href="index.html#contact">
+            Get in touch <span>↗</span>
+          </a>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="index.html">
+      <span class="brand-mark">S.</span>
+      <span>Srujana M.</span>
+    </a>
+
+    <p>Designed and built with curiosity.</p>
+
+    <a href="https://github.com/Srujana1712"
+       target="_blank"
+       rel="noopener noreferrer">GitHub ↗</a>
+  </footer>
+
+</body>
+</html>
